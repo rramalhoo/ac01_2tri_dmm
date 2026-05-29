@@ -60,7 +60,6 @@ class _CalculadoraHomeState extends State<CalculadoraHome> {
     } else {
       montanteFinal += (aporte * t);
     }
-    // ------------------------------------
 
     double totalInvestido = p + (aporte * t); 
     double lucro = montanteFinal - totalInvestido; 
